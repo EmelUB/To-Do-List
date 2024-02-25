@@ -1,0 +1,69 @@
+body{
+    font-family: cursive;
+    background-color: rgb(200, 114, 195) !important;
+    min-height: 100vh;
+    background-image:url(pexels-francesco-ungaro-998641.jpg);
+    background-size: cover;
+}
+
+
+.container{
+    background-image: url(motivational-mobile-8whrzvb1grqk07xb.jpg);
+    background-size: cover;
+    background-position: center -10vh;
+    background-repeat: no-repeat;
+    width:50vw !important;
+    height: 60vh;
+    border-radius: 30px;
+    box-shadow: 20px 50px 50px rgba(205, 191, 191, 0.3);
+    position: relative;
+
+}
+
+.row{
+    width: 90%;
+}
+
+.hedefDiv{
+    overflow: auto;
+}
+
+.liste{
+    background-color: rgba(0, 0, 0, 0.300);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    min-height: 150px;
+}
+
+.listItem{
+    height: 30px;
+}
+
+.cloneDiv{
+    visibility: hidden;
+} 
+
+.reset{
+    position: absolute;
+    bottom: 10px;
+    border-color: whitesmoke !important;
+    color: whitesmoke !important;
+    width: 150px !important;
+}
+
+.input-group .input{
+    background-color:rgba(0, 0, 0, 0.397) ;
+    color: aliceblue;
+}
+
+.input-group .input::placeholder{
+    color: white;
+}
+
+.listem {
+    color: #ffffff; /* Yazı rengi */
+}
+
+.listItem .btn-close {
+    color: #ffffff; /* Yazı rengi */
+}
